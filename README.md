@@ -7,6 +7,19 @@ This project builds a machine learning system for ECG anomaly detection. The goa
 Electrocardiogram (ECG) signals are used to record the electrical activity of the heart and check heart rate and rhythm. Abnormal ECG patterns may indicate arrhythmia or other heart-related conditions. This project applies machine learning and deep learning methods to classify ECG heartbeat signals automatically.
 
 ## Dataset
+The dataset is not included in this repository because the CSV files are large.
+
+Please download the dataset from Kaggle:
+
+ECG Heartbeat Categorization Dataset  
+https://www.kaggle.com/datasets/shayanfazeli/heartbeat
+
+Required files:
+
+- `mitbih_train.csv`
+- `mitbih_test.csv`
+
+After downloading, place both CSV files in the same folder as the notebook before running it.
 
 Dataset used:
 
