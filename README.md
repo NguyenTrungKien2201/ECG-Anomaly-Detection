@@ -73,8 +73,8 @@ The 1D CNN achieved the best overall performance with an accuracy of 98.29%, pre
 
 ## Output Files
 
-- `ECG_Anomaly_Detection_Model_Fixed_English.ipynb`: Main notebook
-- `ECG_Anomaly_Detection_Model_Fixed_English.py`: Python script version
+- `ECG_Anomaly_Detection_Model.ipynb`: Main notebook
+- `ECG_Anomaly_Detection_Model.py`: Python script version
 - `model_results.csv`: Evaluation metrics
 - `confusion_matrix.png`: Confusion matrix
 - `accuracy_curve.png`: Training and validation accuracy curve
