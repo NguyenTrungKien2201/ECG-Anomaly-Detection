@@ -1,17 +1,20 @@
 # ECG-Anomaly-Detection
 
-This project builds a machine learning system for ECG anomaly detection. The goal is to classify ECG heartbeat signals as normal or abnormal using the MIT-BIH dataset from the Kaggle ECG Heartbeat Categorization Dataset.
+# ECG Anomaly Detection
+
+This project builds a machine learning system for ECG anomaly detection. The goal is to classify ECG heartbeat segments as normal or abnormal using public ECG data derived from the MIT-BIH Arrhythmia Database.
 
 ## Project Overview
 
-Electrocardiogram (ECG) signals are widely used to monitor heart activity. Abnormal ECG patterns may indicate arrhythmia or other heart-related conditions. This project applies machine learning and deep learning methods to detect abnormal ECG heartbeat segments automatically.
+Electrocardiogram (ECG) signals are used to record the electrical activity of the heart and check heart rate and rhythm. Abnormal ECG patterns may indicate arrhythmia or other heart-related conditions. This project applies machine learning and deep learning methods to classify ECG heartbeat signals automatically.
 
 ## Dataset
 
 Dataset used:
 
-- ECG Heartbeat Categorization Dataset
+- ECG Heartbeat Categorization Dataset by Shayan Fazeli
 - Source: Kaggle
+- Original sources: MIT-BIH Arrhythmia Database and PTB Diagnostic ECG Database
 - Files used:
   - `mitbih_train.csv`
   - `mitbih_test.csv`
@@ -69,10 +72,10 @@ The 1D CNN achieved the best overall performance with an accuracy of 98.29%, pre
 
 ## How to Run
 
-1. Download the dataset from Kaggle.
+1. Download the ECG Heartbeat Categorization Dataset from Kaggle.
 2. Upload `mitbih_train.csv` and `mitbih_test.csv` to Google Colab.
 3. Open and run `ECG_Anomaly_Detection_Model_Fixed_English.ipynb`.
-4. The notebook will train the models and save the output files.
+4. The notebook trains the models and saves the output files.
 
 ## Libraries Used
 
@@ -83,8 +86,12 @@ The 1D CNN achieved the best overall performance with an accuracy of 98.29%, pre
 - Scikit-learn
 - TensorFlow / Keras
 
-## References
+## Supporting Sources
 
-- Kaggle ECG Heartbeat Categorization Dataset
-- MIT-BIH Arrhythmia Database
-- PhysioNet
+- Cleveland Clinic. Electrocardiogram (EKG/ECG) Test. https://my.clevelandclinic.org/health/diagnostics/16953-electrocardiogram-ekg
+- PhysioNet. MIT-BIH Arrhythmia Database v1.0.0. https://physionet.org/content/mitdb/1.0.0/
+- Kaggle. ECG Heartbeat Categorization Dataset. https://www.kaggle.com/datasets/shayanfazeli/heartbeat
+- Kachuee, M., Fazeli, S., & Sarrafzadeh, M. ECG Heartbeat Classification: A Deep Transferable Representation. https://arxiv.org/abs/1805.00794
+- TensorFlow. Conv1D documentation. https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv1D
+- Keras. Conv1D layer documentation. https://keras.io/api/layers/convolution_layers/convolution1d/
+- Scikit-learn. RandomForestClassifier documentation. https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
