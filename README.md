@@ -1,5 +1,4 @@
 # ECG-Anomaly-Detection
-# ECG Anomaly Detection
 
 This project builds a machine learning system for ECG anomaly detection. The goal is to classify ECG heartbeat signals as normal or abnormal using the MIT-BIH dataset from the Kaggle ECG Heartbeat Categorization Dataset.
 
